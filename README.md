@@ -1,5 +1,7 @@
 # pallet.common
 
+With great respect to Hugo Duncan forked from: https://github.com/pallet/common
+
 A library containing general purpose functions and macros for use across other
 pallet libraries.
 
@@ -23,7 +25,7 @@ Add the following to your `project.clj` file:
 :dependencies [[com.palletops/pallet-common "0.4.0"]]
 ```
 
-### maven 
+### maven
 
 Add the following to your dependencies in `pom.xml`:
 
