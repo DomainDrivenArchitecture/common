@@ -2,6 +2,9 @@
 
 With great respect to Hugo Duncan forked from: https://github.com/pallet/common
 
+[![Clojars Project](https://img.shields.io/clojars/v/dda/common.svg)](https://clojars.org/dda/common)
+[![Build Status](https://travis-ci.org/DomainDrivenArchitecture/common.svg?branch=master)](https://travis-ci.org/DomainDrivenArchitecture/common)
+
 A library containing general purpose functions and macros for use across other
 pallet libraries.
 
