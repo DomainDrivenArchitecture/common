@@ -243,7 +243,7 @@
 
 (defmacro context-history
   [{:keys [history-kw limit] :or {history-kw :history limit 100}}]
-  `(fn context-history [context# entry#]
+  `(fn ~'context-history [context# entry#]
      (when entry#
        {::history-kw ~history-kw
         ~history-kw

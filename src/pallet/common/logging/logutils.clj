@@ -52,7 +52,7 @@
          (impl-get-log [factory# log-ns#] @stdout-log))
        (def stdout-logger-factory (delay (StdoutLoggerFactory.)))
 
-       (defmacro with-logger-factory
+       (defmacro ~'with-logger-factory
          [factory# & body#]
          `(binding [logging/*log-factory* ~factory#] ~@body#)))
     `(do
@@ -94,7 +94,7 @@
          (get-logger [factory# log-ns#] @stdout-log))
        (def stdout-logger-factory (delay (StdoutLoggerFactory.)))
 
-       (defmacro with-logger-factory
+       (defmacro ~'with-logger-factory
          [factory# & body#]
          `(binding [logging/*logger-factory* ~factory#] ~@body#)))))
 
