@@ -1,4 +1,4 @@
-(defproject dda-pallet/pallet-common "0.4.1-SNAPSHOT"
+(defproject dda/pallet-common "0.4.1-SNAPSHOT"
   :description "Common functions used across pallet projects"
   :url "http://palletops.com"
   :license {:name "Eclipse Public License"
