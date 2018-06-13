@@ -1,6 +1,20 @@
 # Pallet-Common Release Notes
 
-The latest release is 0.4.0.
+The latest release is 0.5.0.
+
+## 0.5.0
+- adjust projectname
+
+- add build & artifact status
+
+- adjust gitignor to atom env.
+
+- fixed context defining macro
+
+- fix qualified ns in macro with-logger-factory
+
+- use clojure 1.9
+
 
 ## 0.4.0
 
